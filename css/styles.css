@@ -1,1 +1,56 @@
+body{
+    font-size: 16px;
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
+/*菜单栏公司名*/
+.navbar.navbar-default{
+    background-color: #878787;
+    border: 2px solid black;
+}
+
+.navbar-default .navbar-brand {
+    text-decoration: none;
+    line-height: 50px;
+    color: black;
+    font-family: cursive;
+    font-size: 1.75em;
+    height: 3em;
+}
+
+.navbar-default .navbar-brand a:
+
+/*菜单栏汉堡按键*/
+.navbar-default .navbar-toggle {
+    border-color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+/*汉堡菜单展开*/
+.navbar-nav>li>a {
+    background-color:white;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+/*正文*/
+.head-title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.75em;
+    margin: 40px auto;
+    font-weight: bold;
+}
+
+.content-box {
+    background-color: #878787;
+    padding: 30px;
+    border: 2px solid #dcdcdc;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
